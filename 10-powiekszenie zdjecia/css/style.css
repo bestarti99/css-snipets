@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+
+#image {
+    width: 600px;
+    height: 400px;
+    background-image: url(../img/concet.jpg);
+}
