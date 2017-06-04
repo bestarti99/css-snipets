@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+div {
+    width: 100%;
+    height: 1200px;
+    background-color: bisque;
+    position: relative;
+}
+
+footer div {
+    font-size: 15px;
+    width: 100%;
+    height: 1.5rem;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    border: 2px solid green;
+    position:absolute;
+		bottom:0;
+}

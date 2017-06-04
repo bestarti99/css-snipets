@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+/* styl dla wszystkich linków */
+a {
+    display: block;
+    color:blueviolet;
+    margin-top: 1.5em;
+    margin-left: 4em;
+}
+
+/* styl dla linków kończących się rozszerzeniem .doc*/
+a[href$=".doc"] {
+    color: red;
+}
+
+/* styl dla linków kończących się rozszerzeniem .docx*/
+a[href$=".docx"] {
+    color: green;
+}
