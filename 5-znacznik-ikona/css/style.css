@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+ul {
+  margin: 1.5em 0;
+}
+
+li {
+  margin: 0.5rem;
+  margin-left: 2em;
+}
+
+li:before {
+  content: '\f05a';
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
+  color: #000000;
+}
